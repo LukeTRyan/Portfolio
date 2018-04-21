@@ -8,15 +8,28 @@ body {
   
   #section3 {padding-top:50px;height:1000px;color: #fff; background-color: #ff9800;}
 
+  #section4 {padding-top:50px;height:1000px;color: #fff; background-color: #0867b4da;}
+
+#nav-container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-items: center;
+  display: flex;
+  max-width: 700px;
+}
+
+
   .navbar-brand {
-    font-family: 'Roboto Slab';
     color: #ffffff;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 500;
 }
 
-  .navbar-nav{
-    font-size: 20px;
+  .navbar-brand:hover {
+    color: #ffffff;
+  
 }
 
   .page-scroll{
@@ -25,3 +38,26 @@ body {
     -moz-transition-property: -webkit-transform;
     -moz-transition-duration: 1s;
 }
+
+  .navbar{
+    background: transparent;
+    border-bottom: none;
+    align-items: center;
+    margin-top:20px;
+    font-size: 24px;
+    transition: 1s;
+  }
+
+  .nav.navbar-nav.page-scroll li a{
+    color:white;
+  }
+
+  .nav.navbar-nav.page-scroll li a:hover{
+   color: white;
+   background-color: rgba(255, 255, 255, 0.089);
+   transition: 1s;
+  }
+
+  .nav.navbar-nav.page-scroll li a:focus{
+    background-color: transparent;
+  }
