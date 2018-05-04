@@ -2,13 +2,13 @@ body {
       position: relative; 
   }
 
-  #section1 {padding-top:50px;height:1000px;color: #fff; background-color: #1E88E5;}
+  #section1 {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
 
-  #section2 {padding-top:50px;height:1000px;color: #fff; background-color: #673ab7;}
+  #section2 {padding-top:50px;height:100%;color: #fff; background-color: #673ab7;}
   
-  #section3 {padding-top:50px;height:1000px;color: #fff; background-color: #ff9800;}
+  #section3 {padding-top:50px;height:100%;color: #fff; background-color: #ff9800;}
 
-  #section4 {padding-top:50px;height:1000px;color: #fff; background-color: #0867b4da;}
+  #section4 {padding-top:50px;height:100%;color: #fff; background-color: #0867b4da;}
 
 #nav-container{
   margin-right: auto;
@@ -54,10 +54,66 @@ body {
 
   .nav.navbar-nav.page-scroll li a:hover{
    color: white;
-   background-color: rgba(255, 255, 255, 0.089);
+   background-color: rgba(255, 255, 255, 0.11);
    transition: 1s;
   }
 
   .nav.navbar-nav.page-scroll li a:focus{
     background-color: transparent;
   }
+
+
+.homeImg{
+  background-image: url("background.jpg");
+  height: 100%;
+  padding-top:50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+}
+
+.homeDiv {
+  color: rgb(0, 0, 0);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.homeSouth {
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 54px);
+  top: calc(100% - 120px);
+  font-size: 0;
+  line-height: 0;
+}
+
+body .padX0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.stealthLink, .stealthLink:focus, .stealthLink:hover {
+  color: white;
+  outline: 0;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.smoothScrollBtn {
+  color: white;
+  position: relative;
+  border: none;
+  background: none;
+  font-size: 3em;
+  cursor: default;
+  outline: none;
+}

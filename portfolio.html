@@ -10,14 +10,15 @@
   <script src="https://use.fontawesome.com/32d74153b0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="main.js"></script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="main.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-fixed-top">
   <div class="container" id="nav-container">
-    <div class="navbar-header">
+    <div class="navbar-header" data-spy="scroll" data-target="navbar" data-offset="0">
       <a class="navbar-brand" href="/portfolio.html">Luke Ryan</a>
       <ul class="nav navbar-nav nav-link w--current page-scroll">
         <li><a href="#section1">About</a></li>
@@ -28,6 +29,25 @@
     </div>
   </div>
 </nav>    
+
+<div class="homeImg">
+  <div class="homeDiv center">
+    <h1 class="titleMain">LUKE RYAN</h1>
+    <h3>Business and Information Technology Graduate, Life Changer</h3>
+  </div>
+
+<div class="homeSouth page-scroll">
+  <h4>
+    <a class="stealthLink subPmin padX0" href="#section1">Read More</a>
+  </h4>
+  <a class="stealthLink subPmin padX0" href="#section1">
+  <button class="smoothScrollBtn page-south" type="button">
+    <img src="Down-Arrow-White.png" width="30">
+  </button>
+  </a>
+</div>
+</div>
+
 
 <div id="section1" class="container-fluid">
   <h1>Section 1</h1>
