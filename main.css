@@ -1,24 +1,28 @@
 
 /* Navbar */ 
 
-#nav-container{
+.nav-container{
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  align-items: center;
   display: flex;
   max-width: 700px;
+}
+
+.navbar-collapse {
+    max-height: 340px;
 }
 
   .navbar-brand {
     color: #ffffff;
     font-size: 24px;
-    font-weight: 500;
-}
+    font-weight: normal;
 
+}
   .navbar-brand:hover {
     color: #ffffff;
+    
   
 }
 
@@ -40,17 +44,28 @@
 
   .nav.navbar-nav.page-scroll li a{
     color:white;
+    padding: 10px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
   }
 
   .nav.navbar-nav.page-scroll li a:hover{
    color: white;
-   background-color: rgba(255, 255, 255, 0.11);
-   transition: 1s;
+   background-color: rgba(255, 255, 255, 0.21);
   }
 
   .nav.navbar-nav.page-scroll li a:focus{
     background-color: transparent;
   }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
 
 /* Home image, text and read more */
 
@@ -88,21 +103,32 @@ body .padX0 {
   padding-right: 0px;
 }
 
-.stealthLink, .stealthLink:focus, .stealthLink:hover {
+.titleMain {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 20px;
+}
+
+.stealthLink1, .stealthLink1:focus, .stealthLink1:hover {
   color: white;
-  outline: 0;
   text-decoration: none;
   font-size: 24px;
 }
 
-.smoothScrollBtn {
+.stealthLink, .stealthLink:focus, .stealthLink:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: default;
+}
+
+.smoothScrollBtn, .smoothScrollBtn:focus {
   color: white;
   position: relative;
   border: none;
   background: none;
   font-size: 3em;
   cursor: default;
-  outline: none;
+  outline: 0;
 }
 
 /* Body and main sections */
