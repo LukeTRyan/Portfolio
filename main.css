@@ -159,6 +159,7 @@ body, html {
   transform: translateY(-50%);
   box-sizing: inherit;
   vertical-align: middle;
+  display: flex;
 }
 
 .col-md-4{
