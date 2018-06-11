@@ -160,23 +160,32 @@ body, html {
   box-sizing: inherit;
   vertical-align: middle;
   display: flex;
+  justify-content: center;
 }
 
-.col-md-4{
-  min-width: 260px;
-  width: 100%;
-  padding-left: 75px;
+#section2 {padding-top:53px; padding-bottom:53px; color: rgb(0, 0, 0); background-color: #282828}
+
+.section2heading{
+  text-align: center;
+  padding-bottom:50px;
 }
 
-#section2 {padding-top:53px;height:100%;color: rgb(0, 0, 0); background-color: #00000073;}
+.row1{
+  text-align: center;
+  padding-bottom: 50px;
+}
 
-
-
-
+.row2{
+  text-align: center;
+  padding-bottom: 100px;
+}
   
 #section3 {padding-top:53px;height:100%;color: rgb(0, 0, 0); background-color: #ffffff;}
 
-
+.section3heading{
+  text-align: center;
+  padding-bottom:50px;
+}
 
 
 
