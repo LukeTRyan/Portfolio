@@ -42,7 +42,7 @@
 
 .nav.navbar-nav li a{
   color: rgb(235, 233, 233);
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   transition-property: all;
   transition-duration: 0.7s;
@@ -145,22 +145,25 @@ body, html {
 }
 
 .pad20{
-  padding: 20px;
   padding-bottom: 4px;
   box-sizing: inherit;
   text-align: center;
+  padding:20px;
+  margin-left:35px;
 }
+
 
 .circleImg{
   border-radius: 50%;
   height: 250px;
-  position: relative;
   top: 50%;
+  right:10%;
+  left:25%;
+  position: relative;
   transform: translateY(-50%);
   box-sizing: inherit;
-  vertical-align: middle;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 #section2 {padding-top:53px; padding-bottom:53px; color: rgb(0, 0, 0); background-color: #282828}
@@ -180,14 +183,26 @@ body, html {
   padding-bottom: 100px;
 }
   
-#section3 {padding-top:53px;height:100%;color: rgb(0, 0, 0); background-color: #ffffff;}
+#section3 {padding-top:53px; color: rgb(0, 0, 0); background-color: #ffffff;}
 
 .section3heading{
   text-align: center;
   padding-bottom:50px;
 }
 
+.row2-1{
+  text-align: center;
+  padding-bottom:100px;
+  margin-left:250px;
+  margin-right:250px;
+}
+
+.yeet{
+  height:300px;
+}
 
 
 
-#section4 {padding-top:53px;height:100%;color: rgb(0, 0, 0); background-color: #ffffff;}
+
+
+
