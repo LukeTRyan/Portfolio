@@ -43,6 +43,7 @@
 .nav.navbar-nav li a{
   color: rgb(235, 233, 233);
   padding: 5px;
+  margin:5px;
   text-decoration: none;
   transition-property: all;
   transition-duration: 0.7s;
