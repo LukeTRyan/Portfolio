@@ -62,7 +62,7 @@
 }
 
 #myFooter .social-networks a {
-    font-size: 32px;
+    font-size: 3em;
     color: #f9f9f9;
     padding: 10px;
     transition: 0.2s;
@@ -89,7 +89,7 @@
     background-color: #d84b6b;
     border-radius: 20px;
     border: none;
-    width: 150px;
+    width: 200px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
