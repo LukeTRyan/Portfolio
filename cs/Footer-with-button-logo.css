@@ -94,6 +94,18 @@
     margin: 0 auto;
     margin-top: 10px;
     line-height: 25px;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+#myFooter .btn:hover{
+    width: 250px;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
 }
 
 @media screen and (max-width: 767px) {
