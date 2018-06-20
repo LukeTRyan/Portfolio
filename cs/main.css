@@ -18,8 +18,8 @@
   color: rgb(235, 233, 233);
   font-size: 24px;
   font-weight: normal;
-  transition-property: all;
-  transition-duration: 0.7s;
+  -webkit-transition: all .7s ease-out;
+  transition: all .7s ease-out;
 }
 
 .navbar-brand:hover {
@@ -40,10 +40,8 @@
   padding: 10px;
   margin:10px;
   text-decoration: none;
-  transition-property: all;
-  transition-duration: 0.7s;
-  transition-timing-function: ease-out;
-  transition-delay: initial;
+  -webkit-transition: all .7s ease-out;
+  transition: all .7s ease-out;
   }
 
 .nav.navbar-nav li a:hover{
@@ -72,9 +70,7 @@
 
 .navbrand-colour{
   color:black;
-  transition-duration: 0.7s;
   transition-property: all;
-  
 }
 
 .navbrand-colour:hover{
@@ -120,7 +116,10 @@
   .nav.navbar-nav li a:hover{
     color: rgb(0, 0, 0);
     background-color: rgba(220,220,220,0.15);
-    
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
   }
 
 
