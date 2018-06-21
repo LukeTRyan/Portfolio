@@ -256,6 +256,11 @@ body, html {
   margin-left:100px;
   margin-right:100px;
 }
+
+.row2-1:hover{
+  margin-left:80px;
+  margin-right:80px;
+}
 }
 
 @media (max-width: 492px){
@@ -266,7 +271,7 @@ body, html {
   }
 
 .yeet{
-  height:300px;
+  height:400px;
 }
 
 
