@@ -200,7 +200,7 @@ body, html {
 .pad20{
   padding-bottom: 4px;
   box-sizing: inherit;
-  text-align: center;
+  text-align: justify;
   padding:20px;
   margin-left:35px;
 }
@@ -249,29 +249,25 @@ body, html {
   padding-bottom:50px;
 }
 
-@media (min-width: 492px){
+.cryptoapp{
+  object-fit: scale-down;
+  width:100%;
+  height:100%;
+  min-width:400px;
+}
+
 .row2-1{
   text-align: center;
-  padding-bottom:100px;
-  margin-left:100px;
-  margin-right:100px;
+  padding-bottom: 100px;
 }
-
-.row2-1:hover{
-  margin-left:80px;
-  margin-right:80px;
-}
-}
-
-@media (max-width: 492px){
-  .row2-1{
-    text-align: center;
-    padding-bottom:100px;
-  }
-  }
 
 .yeet{
-  height:400px;
+  height:500px;
+}
+
+.widthpad{
+  margin-left:20%;
+  margin-right:20%;
 }
 
 
