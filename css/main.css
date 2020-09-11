@@ -253,6 +253,8 @@ body, html {
   object-fit: contain;
   width: 60%;
   position: relative;
+  border-style: solid;
+  border-color: #000000;
 }
 
 .position{
